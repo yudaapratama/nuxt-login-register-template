@@ -1,75 +1,54 @@
-# Nuxt Login Register
+# Nuxt Auth Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a basic authentication template built with Nuxt.js, providing essential pages for user authentication.
 
-## Setup
+[Demo](https://nuxt-login-register.vercel.app/)
 
-Make sure to install dependencies:
+## 📕 Pages
 
-```bash
-# npm
-npm install
+* **Login:** `/`
+    * Allows users to log in with their credentials.
+* **Register:** `/register`
+    * Enables new users to create an account.
+* **Forgot Password:** `/forgot-password`
+    * Provides a form for users to reset their forgotten passwords.
+* **Change Password:** `/change-password`
+    * Provides a page to change a users password after they have logged in, or reset their password.
 
-# pnpm
-pnpm install
+## 🏃 Getting Started
 
-# yarn
-yarn install
+1.  **Clone the repository:**
 
-# bun
-bun install
-```
+    ```bash
+    git clone https://github.com/yudaapratama/nuxt-login-register-template
+    ```
 
-## Development Server
+2.  **Install dependencies:**
 
-Start the development server on `http://localhost:3000`:
+    ```bash
+    npm install # or yarn install
+    ```
 
-```bash
-# npm
-npm run dev
+3.  **Run the development server:**
 
-# pnpm
-pnpm dev
+    ```bash
+    npm run dev # or yarn dev
+    ```
 
-# yarn
-yarn dev
+    Open your browser and navigate to `http://localhost:3000`.
 
-# bun
-bun run dev
-```
+## 💻 Technologies Used
 
-## Production
+* Nuxt.js
+* Vue.js
 
-Build the application for production:
+## 🛠️ Future Improvements
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* Implement proper backend integration for authentication.
+* Add input validation and error handling.
+* Implement email verification for registration.
+* Add social login options.
+* Add more styling and improve the user interface.
+* Add unit and integration tests.
+* Add protected routes.
+* Add a user profile page.
